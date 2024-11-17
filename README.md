@@ -1,9 +1,11 @@
 # MySQL
 
+## DDL Commands
 
-  ## DDL Commands
-  ### Assignment 1
-      -- CREATE
+### Assignment 1
+
+```sql
+-- CREATE
 CREATE DATABASE database_name;
 CREATE TABLE table_name (
     column1 datatype constraints,
@@ -24,4 +26,3 @@ RENAME TABLE old_table_name TO new_table_name;
 
 -- TRUNCATE
 TRUNCATE TABLE table_name;
-
