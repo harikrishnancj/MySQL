@@ -1,4 +1,6 @@
 # MySQL
 
-## Assignment 1
-  ### DDL Commands
+
+  ## DDL Commands
+  ### Assignment 1
+
