@@ -1,10 +1,7 @@
-# MySQL
+-- MySQL
 
-## DDL Commands
+-- Assignment 1: DDL Commands
 
-### Assignment 1
-
-```sql
 -- CREATE
 CREATE DATABASE database_name;
 CREATE TABLE table_name (
@@ -26,9 +23,9 @@ RENAME TABLE old_table_name TO new_table_name;
 
 -- TRUNCATE
 TRUNCATE TABLE table_name;
-## DML Commands
 
-### Assignment 2
+
+-- Assignment 2: DML Commands
 
 -- ADD A NEW COLUMN TO THE TABLE
 ALTER TABLE table_name ADD COLUMN column_name datatype;
@@ -53,4 +50,3 @@ WHERE condition;
 
 -- DELETE TABLE FROM THE DATABASE
 DROP TABLE table_name;
-
