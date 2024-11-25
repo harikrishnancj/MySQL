@@ -18,7 +18,7 @@
 ## Assignment 3:DML Command
 
 - **Create the Managers Table**
--  **INSERT DATA**
+- **Insert Data**
 - **Retrieve Name and DOB of Manager with Manager_Id 1**
 - **Display Annual Income of All Managers**
 - **Display Records of All Managers Except 'Aaliya'**
