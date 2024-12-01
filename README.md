@@ -28,52 +28,34 @@
 
 ##Assignment 4
 
-1. List distinct country names from the `Persons` table:
-    ```sql
-    SELECT DISTINCT Country_name FROM Persons;
-    ```
+# SQL Query Keywords
 
-2. Select first and last names with aliases:
-    ```sql
-    SELECT Fname AS First_Name, Lname AS Last_Name FROM Persons;
-    ```
+### 1. List Distinct Country Names
+- `SELECT`, `DISTINCT`, `FROM`
 
-3. Find all persons with a rating greater than 4.0:
-    ```sql
-    SELECT * FROM Persons WHERE Rating > 4.0;
-    ```
+### 2. Use Aliases for Columns
+- `SELECT`, `AS`
 
-4. Find countries with a population greater than 10 lakhs:
-    ```sql
-    SELECT * FROM Country WHERE Population > 1000000;
-    ```
+### 3. Find Persons with Rating > 4.0
+- `SELECT`, `FROM`, `WHERE`, `>`
 
-5. Find persons from 'USA' or with a rating greater than 4.5:
-    ```sql
-    SELECT * FROM Persons WHERE Country_name = 'USA' OR Rating > 4.5;
-    ```
+### 4. Find Countries with Population > 1,000,000
+- `SELECT`, `FROM`, `WHERE`, `>`
 
-6. Find all persons where the country name is NULL:
-    ```sql
-    SELECT * FROM Persons WHERE Country_name IS NULL;
-    ```
+### 5. Find Persons from 'USA' or with Rating > 4.5
+- `SELECT`, `FROM`, `WHERE`, `OR`, `>`
 
-7. Find all persons from 'USA', 'Canada', and 'UK':
-    ```sql
-    SELECT * FROM Persons WHERE Country_name IN ('USA', 'Canada', 'UK');
-    ```
+### 6. Find Persons with Country Name as NULL
+- `SELECT`, `FROM`, `WHERE`, `IS NULL`
 
-8. Find all persons not from 'India' and 'Australia':
-    ```sql
-    SELECT * FROM Persons WHERE Country_name NOT IN ('India', 'Australia');
-    ```
+### 7. Find Persons from Specific Countries ('USA', 'Canada', 'UK')
+- `SELECT`, `FROM`, `WHERE`, `IN`
 
-9. Find all countries with a population between 5 lakhs and 20 lakhs:
-    ```sql
-    SELECT * FROM Country WHERE Population BETWEEN 500000 AND 2000000;
-    ```
+### 8. Find Persons Not from Specific Countries ('India', 'Australia')
+- `SELECT`, `FROM`, `WHERE`, `NOT IN`
 
-10. Find all countries whose names do not start with 'C':
-    ```sql
-    SELECT * FROM Country WHERE Country_name NOT LIKE 'C%';
-    ```
+### 9. Find Countries with Population Between 5 Lakhs and 20 Lakhs
+- `SELECT`, `FROM`, `WHERE`, `BETWEEN`
+
+### 10. Find Countries Whose Names Do Not Start with 'C'
+- `SELECT`, `FROM`, `WHERE`, `NOT LIKE`
