@@ -51,8 +51,8 @@
 - `SELECT`, `FROM`, `WHERE`, `BETWEEN`
  10. Find Countries Whose Names Do Not Start with 'C'
 - `SELECT`, `FROM`, `WHERE`, `NOT LIKE`
-- ## Assigment 5
-- **sorting and limiting**
+ ## Assigment 5
+ **sorting and limiting**
 - where
 - having
 - order by
