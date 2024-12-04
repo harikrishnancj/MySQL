@@ -26,9 +26,9 @@
 - **Display Managers with Salary Between 10000 and 35000**
 
 
-##Assignment 4
+## Assignment 4
 
-# SQL Query Keywords
+**SQL Query Keywords**
 
  1. List Distinct Country Names
 - `SELECT`, `DISTINCT`, `FROM`
@@ -51,7 +51,8 @@
 - `SELECT`, `FROM`, `WHERE`, `BETWEEN`
  10. Find Countries Whose Names Do Not Start with 'C'
 - `SELECT`, `FROM`, `WHERE`, `NOT LIKE`
-- ##Assigment 5
+- ## Assigment 5
+- **sorting and limiting**
 - where
 - having
 - order by
