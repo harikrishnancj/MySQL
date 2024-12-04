@@ -30,39 +30,34 @@
 
 # SQL Query Keywords
 
-### 1. List Distinct Country Names
+ 1. List Distinct Country Names
 - `SELECT`, `DISTINCT`, `FROM`
 
-### 2. Use Aliases for Columns
+ 2. Use Aliases for Columns
 - `SELECT`, `AS`
-
-### 3. Find Persons with Rating > 4.0
+ 3. Find Persons with Rating > 4.0
 - `SELECT`, `FROM`, `WHERE`, `>`
-
-### 4. Find Countries with Population > 1,000,000
+ 4. Find Countries with Population > 1,000,000
 - `SELECT`, `FROM`, `WHERE`, `>`
-
-### 5. Find Persons from 'USA' or with Rating > 4.5
+ 5. Find Persons from 'USA' or with Rating > 4.5
 - `SELECT`, `FROM`, `WHERE`, `OR`, `>`
-
-### 6. Find Persons with Country Name as NULL
+ 6. Find Persons with Country Name as NULL
 - `SELECT`, `FROM`, `WHERE`, `IS NULL`
-
-### 7. Find Persons from Specific Countries ('USA', 'Canada', 'UK')
+ 7. Find Persons from Specific Countries ('USA', 'Canada', 'UK')
 - `SELECT`, `FROM`, `WHERE`, `IN`
-
-### 8. Find Persons Not from Specific Countries ('India', 'Australia')
+ 8. Find Persons Not from Specific Countries ('India', 'Australia')
 - `SELECT`, `FROM`, `WHERE`, `NOT IN`
-
-### 9. Find Countries with Population Between 5 Lakhs and 20 Lakhs
+ 9. Find Countries with Population Between 5 Lakhs and 20 Lakhs
 - `SELECT`, `FROM`, `WHERE`, `BETWEEN`
-
-### 10. Find Countries Whose Names Do Not Start with 'C'
+ 10. Find Countries Whose Names Do Not Start with 'C'
 - `SELECT`, `FROM`, `WHERE`, `NOT LIKE`
-
 - ##Assigment 5
 - where
 - having
 - order by
 - limit
 - group by
+- count
+- min
+- max
+- avg
