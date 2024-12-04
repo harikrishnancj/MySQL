@@ -59,3 +59,10 @@
 
 ### 10. Find Countries Whose Names Do Not Start with 'C'
 - `SELECT`, `FROM`, `WHERE`, `NOT LIKE`
+
+- ##Assigment 5
+- where
+- having
+- order by
+- limit
+- group by
