@@ -63,7 +63,7 @@
 - max
 - avg
 
-##Assigment 6
+## Assigment 6
 **Union and Join**
 - Inner Join
 - Left Join
