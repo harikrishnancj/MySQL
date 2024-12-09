@@ -62,3 +62,11 @@
 - min
 - max
 - avg
+
+##Assigment 6
+**Union and Join**
+- Inner Join
+- Left Join
+- Right Join
+- Union
+- Union All
