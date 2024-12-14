@@ -51,7 +51,7 @@
 - `SELECT`, `FROM`, `WHERE`, `BETWEEN`
  10. Find Countries Whose Names Do Not Start with 'C'
 - `SELECT`, `FROM`, `WHERE`, `NOT LIKE`
- ## Assigment 5
+ ## Assignment 5
  **sorting and limiting**
 - where
 - having
@@ -63,10 +63,32 @@
 - max
 - avg
 
-## Assigment 6
+## Assignment 6
 **Union and Join**
 - Inner Join
 - Left Join
 - Right Join
 - Union
 - Union All
+
+## Assignment 7
+**Functions**
+
+A MySQL function is created using the `CREATE FUNCTION` statement. Here's the basic syntax:
+
+```sql
+CREATE FUNCTION function_name (parameters)
+RETURNS return_type
+[characteristics]
+DETERMINISTIC|NOT DETERMINISTIC
+SQL DATA ACCESS
+BEGIN
+    -- Function body
+    -- SQL statements
+    RETURN expression;
+END;
+
+```
+function calling
+
+select function name(parmeter);
