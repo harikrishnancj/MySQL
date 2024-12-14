@@ -113,13 +113,14 @@ WHERE column1 = (SELECT column_name FROM another_table WHERE condition);
 **2.Multi-Row Subquery**
 A multi-row subquery returns multiple rows. It is often used with operators like IN, ANY, or ALL to compare a column with multiple values.
 
-Syntax:
-```
-sql
+### Syntax:
+
+```sql
 Copy code
 SELECT column1, column2
 FROM table_name
 WHERE column1 IN (SELECT column_name FROM another_table WHERE condition);
+
 ```
 
 
