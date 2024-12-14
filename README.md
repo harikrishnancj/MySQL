@@ -92,3 +92,69 @@ END;
 function calling
 
 select function name(parmeter);
+
+## Assignment 8
+**Subqueries and Views**
+# MySQL Subquery Syntax
+
+**1. Single-Row Subquery**
+
+A single-row subquery returns exactly one value (one row and one column). It is used in queries where you compare a column to a single value.
+
+### Syntax:
+
+```sql
+SELECT column1, column2
+FROM table_name
+WHERE column1 = (SELECT column_name FROM another_table WHERE condition);
+
+```
+
+**2.Multi-Row Subquery**
+A multi-row subquery returns multiple rows. It is often used with operators like IN, ANY, or ALL to compare a column with multiple values.
+
+Syntax:
+```
+sql
+Copy code
+SELECT column1, column2
+FROM table_name
+WHERE column1 IN (SELECT column_name FROM another_table WHERE condition);
+```
+
+
+**3. Nested Subquery**
+
+A nested subquery is a subquery within another subquery. It can be used for more complex queries and can appear in various parts of the SQL statement.
+
+Syntax:
+```
+sql
+Copy code
+SELECT column1
+FROM table_name
+WHERE column1 = (SELECT column_name FROM (SELECT column_name FROM another_table) AS alias);
+```
+**4. Correlated Subquery**
+A correlated subquery refers to columns from the outer query. It is executed once for each row of the outer query and often compares a value from the outer query with a value returned by the subquery.
+
+Syntax:
+```
+sql
+Copy code
+SELECT column1, column2
+FROM table_name outer
+WHERE column1 = (SELECT column_name FROM another_table inner WHERE inner.column_name = outer.column_name);
+```
+
+## Creating a View
+
+A **view** is created using the `CREATE VIEW` statement, followed by a `SELECT` query. The result set of the `SELECT` query is stored as a virtual table.
+
+### Syntax:
+
+```sql
+CREATE VIEW view_name AS
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
