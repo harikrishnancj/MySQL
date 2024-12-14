@@ -1,3 +1,5 @@
+
+
 # MySQL Commands
 
 ## Assignment 1: DDL Commands
