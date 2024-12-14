@@ -110,7 +110,7 @@ WHERE column1 = (SELECT column_name FROM another_table WHERE condition);
 
 ```
 
-**2.Multi-Row Subquery**
+**2. Multi-Row Subquery**
 A multi-row subquery returns multiple rows. It is often used with operators like IN, ANY, or ALL to compare a column with multiple values.
 
 ### Syntax:
@@ -128,9 +128,8 @@ WHERE column1 IN (SELECT column_name FROM another_table WHERE condition);
 
 A nested subquery is a subquery within another subquery. It can be used for more complex queries and can appear in various parts of the SQL statement.
 
-Syntax:
-```
-sql
+###Syntax:
+```sql
 Copy code
 SELECT column1
 FROM table_name
@@ -139,9 +138,8 @@ WHERE column1 = (SELECT column_name FROM (SELECT column_name FROM another_table)
 **4. Correlated Subquery**
 A correlated subquery refers to columns from the outer query. It is executed once for each row of the outer query and often compares a value from the outer query with a value returned by the subquery.
 
-Syntax:
-```
-sql
+###Syntax:
+```sql
 Copy code
 SELECT column1, column2
 FROM table_name outer
