@@ -62,7 +62,7 @@ select * from Persons where Population >1000000;
 
 ##Find persons who are from 'USA' or have a rating greater than 4.5.
 
-select * from Persons where Country_name='United States' and Rating>4.5;
+select * from Persons where Country_name='United States' or Rating>4.5;
 
 ##Find all persons where the country name is NULL.
 
