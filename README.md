@@ -152,8 +152,38 @@ A **view** is created using the `CREATE VIEW` statement, followed by a `SELECT` 
 
 ### Syntax:
 
+
 ```sql
 CREATE VIEW view_name AS
 SELECT column1, column2, ...
 FROM table_name
 WHERE condition;
+```
+## Assignment 9
+**Stored Procedures**
+
+### MySQL Stored Procedure Syntax
+
+The basic structure for creating a stored procedure in MySQL is as follows:
+
+```sql
+DELIMITER //
+
+CREATE PROCEDURE procedure_name (
+    [parameter1 datatype [IN | OUT | INOUT]],
+    [parameter2 datatype [IN | OUT | INOUT]],
+    ...
+)
+BEGIN
+    -- SQL Statements to be executed
+    -- Can include SELECT, INSERT, UPDATE, DELETE, etc.
+END //
+
+DELIMITER ;
+```
+Parameters:
+
+You can define parameters for the procedure:
+IN: Input parameter, passed when calling the procedure.
+OUT: Output parameter, will hold the result when the procedure finishes execution.
+INOUT: Can be used for both input and output (i.e., the parameter is modified inside the procedure).
