@@ -181,9 +181,12 @@ END //
 
 DELIMITER ;
 ```
-Parameters:
+### Parameters:
 
 You can define parameters for the procedure:
-IN: Input parameter, passed when calling the procedure.
-OUT: Output parameter, will hold the result when the procedure finishes execution.
-INOUT: Can be used for both input and output (i.e., the parameter is modified inside the procedure).
+
+**IN**: Input parameter, passed when calling the procedure.
+
+**OUT**: Output parameter, will hold the result when the procedure finishes execution.
+
+**INOUT**: Can be used for both input and output (i.e., the parameter is modified inside the procedure).
