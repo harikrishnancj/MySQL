@@ -206,7 +206,7 @@ END //
 DELIMITER ;
 
 ### AFTER INSERT Trigger
-```sql
+
 DELIMITER //
 CREATE TRIGGER trigger_name
 AFTER INSERT ON table_name
@@ -217,7 +217,7 @@ END //
 DELIMITER ;
 
 ### BEFORE DELETE Trigger
-```sql
+
 DELIMITER //
 CREATE TRIGGER trigger_name
 BEFORE DELETE ON table_name
@@ -228,7 +228,7 @@ END //
 DELIMITER ;
 
 ### AFTER DELETE Trigger
-```sql
+
 DELIMITER //
 CREATE TRIGGER trigger_name
 AFTER DELETE ON table_name
@@ -239,7 +239,7 @@ END //
 DELIMITER ;
 
 ### BEFORE UPDATE Trigger
-```sql
+
 DELIMITER //
 CREATE TRIGGER trigger_name
 BEFORE UPDATE ON table_name
