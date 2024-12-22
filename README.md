@@ -204,8 +204,7 @@ BEGIN
     -- Trigger logic here
 END //
 DELIMITER ;
-sql
-Copy code
+
 ### AFTER INSERT Trigger
 ```sql
 DELIMITER //
@@ -216,8 +215,7 @@ BEGIN
     -- Trigger logic here
 END //
 DELIMITER ;
-sql
-Copy code
+
 ### BEFORE DELETE Trigger
 ```sql
 DELIMITER //
@@ -228,8 +226,7 @@ BEGIN
     -- Trigger logic here
 END //
 DELIMITER ;
-sql
-Copy code
+
 ### AFTER DELETE Trigger
 ```sql
 DELIMITER //
@@ -240,8 +237,7 @@ BEGIN
     -- Trigger logic here
 END //
 DELIMITER ;
-sql
-Copy code
+
 ### BEFORE UPDATE Trigger
 ```sql
 DELIMITER //
@@ -252,10 +248,8 @@ BEGIN
     -- Trigger logic here
 END //
 DELIMITER ;
-sql
-Copy code
+
 ### AFTER UPDATE Trigger
-```sql
 DELIMITER //
 CREATE TRIGGER trigger_name
 AFTER UPDATE ON table_name
