@@ -190,3 +190,78 @@ You can define parameters for the procedure:
 **OUT**: Output parameter, will hold the result when the procedure finishes execution.
 
 **INOUT**: Can be used for both input and output (i.e., the parameter is modified inside the procedure).
+
+## Assignment 10
+**TRigger**
+```sql
+### BEFORE INSERT Trigger
+
+DELIMITER //
+CREATE TRIGGER trigger_name
+BEFORE INSERT ON table_name
+FOR EACH ROW
+BEGIN
+    -- Trigger logic here
+END //
+DELIMITER ;
+sql
+Copy code
+### AFTER INSERT Trigger
+```sql
+DELIMITER //
+CREATE TRIGGER trigger_name
+AFTER INSERT ON table_name
+FOR EACH ROW
+BEGIN
+    -- Trigger logic here
+END //
+DELIMITER ;
+sql
+Copy code
+### BEFORE DELETE Trigger
+```sql
+DELIMITER //
+CREATE TRIGGER trigger_name
+BEFORE DELETE ON table_name
+FOR EACH ROW
+BEGIN
+    -- Trigger logic here
+END //
+DELIMITER ;
+sql
+Copy code
+### AFTER DELETE Trigger
+```sql
+DELIMITER //
+CREATE TRIGGER trigger_name
+AFTER DELETE ON table_name
+FOR EACH ROW
+BEGIN
+    -- Trigger logic here
+END //
+DELIMITER ;
+sql
+Copy code
+### BEFORE UPDATE Trigger
+```sql
+DELIMITER //
+CREATE TRIGGER trigger_name
+BEFORE UPDATE ON table_name
+FOR EACH ROW
+BEGIN
+    -- Trigger logic here
+END //
+DELIMITER ;
+sql
+Copy code
+### AFTER UPDATE Trigger
+```sql
+DELIMITER //
+CREATE TRIGGER trigger_name
+AFTER UPDATE ON table_name
+FOR EACH ROW
+BEGIN
+    -- Trigger logic here
+END //
+DELIMITER ;
+```
