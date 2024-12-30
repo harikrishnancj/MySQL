@@ -258,6 +258,7 @@ BEGIN
     -- Trigger logic here
 END //
 DELIMITER ;
+```
 
 # Library Management System
 
